@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+/* start header css */
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 5rem;
+    
+}
+ul{
+    display: flex;
+
+}
+li{
+    margin: 0 10px;
+}
+a{
+    color: black;
+     font-family: "Poppins", sans-serif;
+}
+.btn{
+   background-color: #CF881D; 
+  
+   padding: 10px 25px;
+   color: white;
+   border-radius: 10px;
+     border:  2px solid #CF881D;
+   
+}
+.btn1{
+    border:  2px solid #CF881D;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+/* End header css */
+
+/* start home page styling */
+.home_page{
+    background: url('/images/image.png');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.10);  
+      text-align: center;/* Inner shadow */
+}
+h1{
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+
+}
+p{
+    color: #ffd89d;
+    padding-top: 120px;
+}
+/* End home page styling */
+
+/* Start Service page styling */
+.services{
+   
+   display: flex;
+   justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    margin: 0 5rem;
+   
+    
+}
+.text_service{
+    margin: 0 70px;
+   
+}
+.ser_img{
+    width: 500px;
+    margin-top: 100px;
+   
+}
+.eva{
+    display: flex;
+    padding-top: 30px;
+    margin-left: -20px;
+     
+
+}
+.text_eva{
+    padding: 10px 20px 30px 20px;
+}
+h2{
+    padding: 20px 0;
+}
+/* End Service page styling */
+
+
+/* Start Service_now page styling */
+.service_now{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 3rem 0 3rem;
+
+}
+#ser_text{
+    color: #b08340;
+}
+.card{
+    margin: 0 13px;
+}
+h4{
+    padding: 13px 0;
+     font-family: "Poppins", sans-serif;
+}
+.icons_img{
+    width: 100px;
+}
+h2{
+     font-family: "Poppins", sans-serif;
+}
+.new_btn{
+    margin-top: 50px;
+    background-color: #CF881D; 
+   padding: 10px 34px;
+   color: white;
+   border-radius: 20px;
+     border:  2px solid #CF881D;
+}
+/* End Service_Now page styling */
+
+
+/* Start Pricing page styling */
+.pricing{
+    margin: 0 5rem;
+}
+.price_card{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    width: 100%;
+    height: 22vh;
+    border: 0.1rem solid rgb(228, 222, 222);
+    margin: 1rem 0;
+
+}
+.btn_price{
+     background-color: #CF881D; 
+   padding: 10px 34px;
+   color: white;
+   border-radius: 20px;
+     border:  2px solid #CF881D;
+
+}
+.icone_text{
+    padding-left: 6px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+h3{
+       font-family: "Poppins", sans-serif;
+       font-weight: 400;
+}
+.icon_cont i{
+    color: #CF881D;
+}
+.icon_cont .check_list{
+    margin: 8px 0;
+}
+.icon_cont .check_list span{
+    font-size: 14px;
+}
+
+
+
+/* Start hover */
+.price_card:hover  {
+    background: linear-gradient(to right, #737373 ,#CF881D);
+    color: white;
+      transition: all 0.3s ease;
+   
+
+}
+.btn_price:hover{
+    background-color: white;
+    color: #CF881D;
+}
+/* Start hover */
+.pricing p{
+    color: #b08340;
+}
+.pricing h2{
+       font-family: "Poppins", sans-serif;
+}
+
+/* End  Pricing page styling */
+
+/* Start  video page styling */
+.video_cont{
+    text-align: center;
+    position: relative;
+}
+.video_cont h2{
+    font-size: 2rem;
+      font-family: "Poppins", sans-serif;
+}
+.video_cont p{
+    color: #b08340;
+     font-family: "Poppins", sans-serif;
+}
+.video_cont i{
+    position: absolute;
+    top: 500px;
+    background-color: #CF881D;
+    padding: 20px 23px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+  
+}
+.video_size{
+     border: 2px solid #ffb13d;
+     border-radius: 10px;
+    width: 800px;
+   
+}
+/* End  video page styling */
+
+
+
+/* Start  Customer Feedback page styling */
+.feedback_cont{
+    text-align: center;
+}
+.users_cont{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.user{
+    text-align: center;
+}
+.user p{
+    color: black;
+}
+.user i{
+   color: #ffb13d;
+}
+.user #icon_notcolor{
+   color: #e7e7e7;
+  
+}
+
+.user_img{
+    
+     margin: 15px 0;
+}
+.users_cont p{
+     font-family: "Poppins", sans-serif;
+     padding: 16px 20px;
+     font-size: 12px;
+     color: #5A5A5A;
+     
+}
+.users_cont h3{
+     font-family: "Poppins", sans-serif;
+     margin-top: 14px;
+
+}
+
+/* End  Customer Feedback page styling */
