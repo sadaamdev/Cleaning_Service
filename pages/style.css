@@ -285,3 +285,78 @@ h3{
 }
 
 /* End  Customer Feedback page styling */
+
+
+
+
+
+/* Start  Ads_card page styling */
+
+.card_ads{
+    width: 100%;
+    height: 30vh;
+    background-color: #CF881D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 26px 0;
+}
+.card_ads h2{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+}
+.ads_btn{
+    border: 1px solid white;
+    padding: 10px 20px;
+    background: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.ads_btns{
+    border: 1px solid white;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 20px;
+    color: #CF881D;
+}
+
+
+/* End  Ads_card page styling */
+
+
+
+/* Start Footer page styling */
+.cont_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+.cont_footer p {
+    padding: 10px 0;
+    color: #5A5A5A;
+}
+.cont_footer h2{
+    padding: 0;
+    font-size: 1.1rem;
+}
+.cont_footer li{
+    padding: 5px 0 0 0;
+    font-size: 0.8rem;
+}
+
+.copy{
+    width: 100%;
+    height: 18vh;
+    background: black;
+
+}
+.copy p{
+    color: white;
+    padding:40px 40px 0 100px;
+}
+
+/* End Footer page styling */
+
